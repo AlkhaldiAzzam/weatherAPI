@@ -14,7 +14,7 @@ $("#srchBtn").click(()=>{
     
     let city = $("#cityInput").val()
 
-    let url = `http://api.worldweatheronline.com/premium/v1/weather.ashx?key=a2c0a08575c040b6b54145354202704&q=${city}&format=json`
+    let url = `https://api.worldweatheronline.com/premium/v1/weather.ashx?key=a2c0a08575c040b6b54145354202704&q=${city}&format=json`
 
 
     
